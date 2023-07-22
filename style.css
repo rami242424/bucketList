@@ -1,0 +1,71 @@
+h1,
+p {
+  margin: 0;
+  font: inherit;
+}
+
+body {
+  background-color: #d9d9d9;
+  font-family: Arial;
+  font-weight: 400;
+}
+.wrapper {
+  width: 448px;
+  margin: 0px auto;
+}
+.header {
+  font-size: 24px;
+  width: 100%;
+  height: 120px;
+  border-radius: 20px 20px 0 0;
+  box-sizing: border-box;
+  border-bottom: 4px solid #ddd;
+  background: #fff;
+}
+.header .title {
+  color: #ff007a;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  background-image: url(./images/Rectangle\ 3.jpg);
+  background-repeat: no-repeat;
+  background-position: left 44px;
+  border-radius: 0px 10px 10px 0px;
+  padding-top: 46px;
+  padding-left: 39px;
+}
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: initial;
+  gap: 14px;
+  width: 448px;
+  height: 374px;
+  font-size: 16px;
+  background: #eee;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 20px 20px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+.list {
+  width: 372px;
+  height: 48px;
+  border-radius: 10px;
+  border: 4px solid #d9d9d9;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  font-weight: 400;
+  color: #888888;
+}
+.list.complete {
+  background-image: url(./images/Frame.png);
+  background-position: right 14px center;
+  background-repeat: no-repeat;
+  border: 4px solid #759cff;
+  color: #759cff;
+  font-weight: bold;
+}
