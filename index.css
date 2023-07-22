@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+}
+
+.viewport {
+  width: 100vw;
+  height: 100vh;
+  background: #d9d9d9;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  width: 28em;
+  height: 7.5em;
+  background: #fff;
+
+  border-radius: 1.25rem 1.25rem 0rem 0rem;
+  border-bottom: 4px solid #ddd;
+
+  display: flex;
+  align-items: center;
+}
+
+.highlight {
+  width: 0.5em;
+  height: 2em;
+  background: #ff007a;
+
+  margin-right: 2em;
+
+  border-radius: 0rem 0.625rem 0.625rem 0rem;
+}
+
+h1 {
+  font-family: Arial;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ff007a;
+}
+
+article {
+  height: 21rem;
+  background: #eee;
+
+  padding: 2.5em 0;
+  gap: 0.88em;
+
+  border-bottom-left-radius: 1.25em;
+  border-bottom-right-radius: 1.25em;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  overflow-y: scroll;
+}
+
+section {
+  width: 23.25rem;
+  height: 3rem;
+  background: #fff;
+
+  padding-left: 0.94em;
+
+  border-radius: 0.625rem;
+  border: 4px solid #d9d9d9;
+
+  font-family: Arial;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #888;
+
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+input {
+  display: none;
+}
+
+[alt='check'] {
+  display: none;
+  margin-left: auto;
+  margin-right: 0.81em;
+}
+
+input[type='checkbox']:checked + label section {
+  border: 4px solid #759cff;
+}
+
+input[type='checkbox']:checked + label section [alt='check'] {
+  display: block;
+}
