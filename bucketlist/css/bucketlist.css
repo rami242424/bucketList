@@ -1,0 +1,106 @@
+body {
+    background-color: #D9D9D9;
+}
+
+/* reset */
+body {
+    margin: 0;
+}
+h2 {
+    margin:0;
+    padding:0;
+}
+
+button {
+    font: inherit;
+}
+
+
+/* CSS 적용 */
+.bucketlist {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-wrap {
+    width: 448px;
+    height: 494px;
+    background-color: #eee;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+.header {
+    width: 448px;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: 4px solid #DDD;
+    align-items: center;
+    display: flex;
+}
+
+h2 {
+    color: #FF007A;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 46px auto 46px 39px;
+}
+
+.header::before {
+    content:"";
+    width: 8px;
+    height: 32px;
+    background-color: #FF007A;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    gap: 14px;
+}
+
+button {
+    width: 372px;
+    height: 48px;
+    color: #888;
+    font-size: 16px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 4px solid #D9D9D9;
+    text-align: left;
+    padding-left: 15px;
+}
+
+button:nth-child(2) {
+    color: #759CFF;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 4px solid #759CFF;
+    background: url(../img/check.png) no-repeat 20px 20px ;
+    background-position: 331px 10px;
+}
+
+/* button:active {
+    color: #759CFF;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 4px solid #759CFF;
+    background: url(../img/check.png) no-repeat 20px 20px ;
+    background-position: 331px 10px;
+} */
+
+
+
+
+
+
+
+
